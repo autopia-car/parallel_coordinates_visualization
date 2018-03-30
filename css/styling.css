@@ -1,0 +1,101 @@
+#example {
+    height: 55%;
+    /* margin: 25px 150px 10px 40px; */
+}
+
+.download {
+    background: #333;
+    color: #FFF;
+    font-weight: 900;
+    border: 2px solid #B10000;
+    padding: 4px;
+    margin:4px;
+}
+
+
+body, html {
+  margin: 0;
+  height: 100%;
+  /*width: 100%;*/
+  overflow: hidden;
+  font-size: 11px;
+  font-family: Times;/*"Helvetica Neue", Arial, Helvetica, sans-serif;*/
+}
+
+div {
+  font-size: 14px;
+}
+
+#scale_legend{
+	width: 25px;
+    height: 50%;
+    position: absolute;
+    right: 50px;
+    top: 120px;
+}
+
+#min{
+	position: absolute;
+    right: 74px;
+    top: calc(50% + 101px);
+}
+
+#max{
+	position: absolute;
+    right: 74px;
+    top: 103px;
+}
+
+#grid, #pager {
+  position: fixed;
+  width: 100%;
+}
+#grid {
+  bottom: 21px;
+  height: 25%;
+}
+#pager {
+  bottom: 0;
+  height: 25px;
+}
+.slick-row:hover {
+  font-weight: bold;
+  /* color: #069; */
+}
+#pargraph {
+	width:80%;
+	margin-left: 15%;
+	margin-right: 5%;
+}
+.fset {
+	position: absolute;
+	left: 20px;
+}
+
+.inline {
+    display: inline;
+}
+
+#select_percentile{
+	top: 60px;
+}
+
+#select_scenario{
+	top: 10px;
+}
+
+#colorDimension{
+	top: 35px;
+}
+
+#btnReset{
+	position: absolute;
+    right: 20px;
+    top: 20px;
+}
+
+#btnSVG{
+	position: absolute;
+    right: 20px;
+    top: 40px;
+}

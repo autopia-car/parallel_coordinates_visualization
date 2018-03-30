@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Comparison results</title>
+    <link rel="stylesheet" type="text/css" href="./css/styling.css">
+    <link rel="stylesheet" type="text/css" href="./css/d3.parcoords.css">
+    <script src="./js/d3.js"></script>
+    <script src="./js/d3.svg.multibrush.js"></script>
+    <script src="./js/sylvester.js"></script>
+    <script src="./js/underscore.js"></script>
+    <script src="./js/slickgrid/jquery-1.7.min.js"></script>
+    <script src="./js/underscore.js"></script>
+    <script src="./js/underscore.math.js"></script>
+    <script src="./js/d3.parcoords.js"></script>
+    	
+	<script src="https://d3js.org/d3-color.v1.min.js"></script>
+	<script src="https://d3js.org/d3-interpolate.v1.min.js"></script>
+	<script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+	
+	<!-- SlickGrid -->
+	<link rel="stylesheet" href="./js/slickgrid/slick.grid.css" type="text/css"/>
+	<link rel="stylesheet" href="./js/slickgrid/jquery-ui-1.8.16.custom.css" type="text/css"/>
+	<link rel="stylesheet" href="./js/slickgrid/examples.css" type="text/css"/>
+	<link rel="stylesheet" href="./js/slickgrid/slick.pager.css" type="text/css"/>
+	<script src="./js/slickgrid/jquery.event.drag-2.0.min.js"></script>
+	<script src="./js/slickgrid/slick.core.js"></script>
+	<script src="./js/slickgrid/slick.grid.js"></script>
+	<script src="./js/slickgrid/slick.pager.js"></script>
+	<script src="./js/slickgrid/slick.dataview.js"></script>
+	<!-- End SlickGrid -->
+</head>
+
+<body>
+<div class="fset" id="select_scenario">- Select scenario: </div>
+<div class="fset" id="colorDimension">- Line colours determined by: </div>
+<div class="fset" id="select_percentile">- Select percentile (applied to K_k0, K_k1, K_k2 and K_cl): </div>
+<h1 align="center">A primitive comparison for traffic-free path planning</h1>
+<h3 align="center">Authors: Antonio Artuñedo, Jorge, Godoy, Jorge Villagrá</h3>
+<div id="example" class="parcoords"></div>
+<img id="scale_legend" src="cool.png" data-rotate="-90">
+<p id="min">Min. -</p>
+<p id="max">Max. -</p>
+<button id="btnReset">Reset selections</button>
+
+<div id="grid"></div>
+<div id="pager"></div>
+<script type="text/javascript" src="parallel.js"></script>
+</body>
+</html>
